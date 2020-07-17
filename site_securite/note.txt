@@ -1,0 +1,34 @@
+commandes Windows :
+
+cd .. = revenir en arrière
+cd "nom du fichier" = aller dans ce dossier
+dir = pour affiché le contenu
+type = affiche le contenu du texte.
+rmdir = permet de supprimé
+net user "nom_utilisateur" "mot_de_passe" /add = ajout d'un utilisateur
+net localgroup Administrateurs "nom_utilisateur" /add = ajout des droits administrateur
+tree = Affiche graphiquement la structure d'un répertoire ou d'un disque
+
+commandes Linux :
+
+cd .. = revenir en arrière
+cd "nom du fichier" = aller dans ce dossier
+ls = pour affiché le contenu
+touch "nom du fichier" + "format choisie" = créer un fichier
+mkdir "nom du dossier" = créer un dossier
+man + "le nom de la commande" = voir son fonctionnement
+mv + "le nom du fichier/dossier à déplacé" + "le nom de l'emplacement" = permet de déplacer les fichiers/dossiers
+cp + "le nom du fichier/dossier à copier et à déplacer" + "le nom de l'emplacement" = permet de copier les fichiers et de les déplacer
+rm + "le nom du fichier/dossier" = permet de supprimé
+rm * = permet de supprimer tout le contenu choisie
+rm *."n'importe quelle format de fichier" = permet de supprimer les fichiers choisie
+ssh "nom"@"ip"= se connecter à distance
+nmap -v "ip d'un réseau /24" = voir les ip sur le réseau
+sudo apt-get update = mettre à jour les adresses des dépots
+sudo apt-get upgrade = mettre à jour les paquets
+sudo apt-get dist-upgrade = mettre à jour le systeme
+dig "nom de domaine" = pour avoir l'adresse ip (nom pour installer "dnsutils")
+whois "nom de l'ip" = pour connaitre des informations sur l'ip (nom pour installer "whois")
+apt-get remove "nom du paquet"= pour effacer le paquet
+pwgen = génère un mot de passe aléatoire (nom pour l'installer "pwgen")
+tree = Affiche graphiquement la structure d'un répertoire ou d'un disque
